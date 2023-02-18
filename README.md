@@ -36,3 +36,11 @@ Para instalar o programa, faça o clone deste repositório ou baixe o arquivo `s
 Para executar o programa, navegue até o diretório onde o arquivo `smtp_tester.py` foi salvo e execute o programa.
 
 Insira o host, a conta de envio, a conta que vai receber, o metodo de criptografia e se necessário, a senha.
+
+## Autor
+
+- [Henrique Carvalho](https://github.com/henri-carvalho)
+
+## Licença
+
+Este projeto está licenciado sob a licença MIT. Consulte o arquivo LICENSE para obter mais informações.
