@@ -13,7 +13,17 @@ def create_title(title, symbol="#", width=100):
     right = width - left - len(title) - 2
     return format_text(f"{symbol * left} {title} {symbol * right}", color=Fore.BLUE, style=Style.BRIGHT)
 
-print(create_title("Bem-vindo ao SMTP Tester"))
+print(create_title("""
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@                                                                @
+@   _____ __  __ _______ _____    _______ ______  _____ _______  @
+@  / ____|  \/  |__   __|  __ \  |__   __|  ____|/ ____|__   __| @
+@ | (___ | \  / |  | |  | |__) |    | |  | |__  | (___    | |    @
+@  \___ \| |\/| |  | |  |  ___/     | |  |  __|  \___ \   | |    @
+@  ____) | |  | |  | |  | |         | |  | |____ ____) |  | |    @
+@ |_____/|_|  |_|  |_|  |_|         |_|  |______|_____/   |_|    @
+@                                                                @
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@"""))
 input(format_text("\nPressione ENTER para continuar...", color=Fore.BLUE, style=Style.BRIGHT))
 
 def create_message(user, to):
